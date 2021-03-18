@@ -1,0 +1,51 @@
+.heading {
+  font-size: 30px;
+  font-family: century gothic;
+  width: 100%;
+  box-shadow: 5px 5px 20px green;
+}
+.divHead {
+  background-color: lightgreen;
+  border-radius: 30px;
+  padding: 10px;
+  box-shadow: 5px 5px 20px greenyellow;
+  color: black;
+  float: none;
+}
+.footer {
+  background-color: rgb(0, 68, 0);
+  line-height: 40px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  bottom: 0;
+  font-weight: bolder;
+}
+canvas {
+  border: 5px black double;
+  margin-top: 340px;
+  box-shadow: 5px 5px 20px rgb(95, 224, 95);
+  border-radius: 25px;
+}
+#mainHead {
+  background-color: rgb(0, 71, 0);
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#objects {
+  background-color: rgb(110, 226, 110);
+  border-radius: 25px;
+  padding: 10px;
+  width: 45%;
+}
+.colorButton {
+  background-color: rgb(2, 39, 2);
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  width: 10%;
+  display: inline-block;
+}
