@@ -1,14 +1,17 @@
 .heading {
   font-size: 30px;
-  font-family: century gothic;
+  /* font-family: century gothic; */
   width: 100%;
   box-shadow: 5px 5px 20px blue;
+}
+body {
+  padding-bottom: 100px;
 }
 #mainHead {
   background-color: rgb(0, 0, 100);
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
 }
 .divHead {
   background-color: lightblue;
@@ -25,15 +28,15 @@
   width: 100%;
   text-align: center;
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; */
   bottom: 0;
   font-weight: bolder;
 }
 canvas {
   border: 5px black double;
-  margin-top: 340px;
   box-shadow: 5px 5px 20px blue;
   border-radius: 25px;
+  margin-top: 400px;
 }
 #objects {
   background-color: rgb(162, 162, 209);
@@ -46,6 +49,5 @@ canvas {
   color: white;
   border-radius: 10px;
   padding: 5px;
-  width: 10%;
   display: inline-block;
 }
